@@ -7,9 +7,9 @@ const Emergency = () => {
   usePreventBackNavigation("/"); // Prevents back navigation
   
   const defaultTherapists = useMemo(() => [
-    { name: "Dr. Charmi Patel", phone: "+91 6352743219" },
-    { name: "Dr. Pooja Mojidra", phone: "+91 8401429560" },
-    { name: "Dr. Kripa Patel", phone: "+91 8980833400" }
+    { name: "Dr. Charmi Patel", phone: "+91 1234567899" },
+    { name: "Dr. Pooja Mojidra", phone: "+91 0123456789" },
+    { name: "Dr. Kripa Patel", phone: "+91 0987654321" }
   ], []);
 
   const [therapists, setTherapists] = useState(defaultTherapists);
